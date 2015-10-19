@@ -1,5 +1,11 @@
 l## JPush PhoneGap Plugin ##
-
+###整合JPush和讯飞语音+报警
+对JPush插件做一些修改，在后台调用讯飞语音，之后语音读出推送的信息，项目中使用备份。
+将以下代码粘贴到plugin.xml文件中，
+```xml
+<!-- TTS -->
+  <service android:name="cn.jpush.phonegap.TTSService" android:enabled="true"></service>
+```
 
 ###准备工作
 
